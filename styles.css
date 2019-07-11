@@ -1,13 +1,20 @@
 body {
+    margin-top: 200px;
     background-color: #fff;
 }
 
 header {
+    position: fixed;
+    top: 0;
     width: 100%
 }
 
 footer {
-    width: 100%
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #e4e4e4;
 }
 
 .left {
