@@ -18,6 +18,24 @@ header a {
     padding-left: 15px;
 }
 
+button {
+    line-height: 28px;
+}
+
+.right button {
+    margin-left: 20px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 12px;
+    background-color: #4285f4;
+    border-radius: 3px;
+}
+
+.right button:hover {
+    box-shadow: 0px 1px 3px 0px grey;
+}
+
 footer {
     width: 100%;
     background-color: #f2f2f2;
