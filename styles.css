@@ -1,12 +1,21 @@
 body {
     margin-top: 200px;
     background-color: #fff;
+    font-family: arial, sans-serif;
+    font-size: 13px;
 }
 
 header {
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    padding-top: 20px;
+}
+
+header a {
+    color: #000;
+    opacity: 0.75;
+    padding-left: 15px;
 }
 
 footer {
@@ -15,6 +24,14 @@ footer {
     position: fixed;
     bottom: 0;
     border-top: 1px solid #e4e4e4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .left {
