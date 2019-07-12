@@ -17,10 +17,24 @@ footer {
     border-top: 1px solid #e4e4e4;
 }
 
+footer ul, header ul {
+    list-style: none;
+}
+
 .left {
     float: left;
 }
 
 .right {
     float: right;
+}
+
+.search-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.search-container img {
+    margin: 0 auto;
+    display: block;
 }
