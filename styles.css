@@ -20,6 +20,7 @@ header a {
 
 button {
     line-height: 28px;
+    cursor: pointer;
 }
 
 .right button {
@@ -81,12 +82,24 @@ a:hover {
 }
 
 .button-div {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
 .button-div button {
     margin: 0 auto;
+    border: 1px solid #f2f2f2;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 0 16px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+}
+
+.button-div button:hover {
+    box-shadow: 0 0 2px black;
+    color: #222222;
 }
 
 #search {
