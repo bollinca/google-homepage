@@ -79,3 +79,19 @@ a:hover {
     margin: 0 auto;
     display: block;
 }
+
+.button-div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.button-div button {
+    margin: 0 auto;
+}
+
+#search {
+    width: 482px;
+    height: 44px;
+    border-radius: 24px;
+    margin: 20px 0;
+}
